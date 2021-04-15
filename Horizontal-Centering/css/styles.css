@@ -1,0 +1,19 @@
+body {
+  text-align: center;
+}
+div {
+  height: 250px;
+  width: 250px;
+  display: inline-block;
+}
+
+.one {
+  background: red;
+}
+.two {
+  background: blue;
+}
+
+.three {
+  background: green;
+}
