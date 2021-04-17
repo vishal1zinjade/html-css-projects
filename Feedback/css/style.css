@@ -1,0 +1,68 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background: #dbe3f3;
+}
+
+.sectionParent {
+  width: 350px;
+  height: 440px;
+  background: black;
+  margin: 80px auto;
+  border-radius: 10px;
+}
+.section {
+  width: 450px;
+  height: 380px;
+  background: white;
+  margin: -490px auto;
+  display: flex;
+  border-radius: 10px;
+}
+
+p {
+  text-transform: capitalize;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+span {
+  margin-top: 30px;
+  display: inline-block;
+  padding-right: 80px;
+  padding-left: 10px;
+  text-transform: capitalize;
+}
+
+.article {
+  width: 400px;
+  height: 40px;
+  margin: 40px auto;
+}
+.parentDiv {
+  display: flex;
+}
+.parentDiv div {
+  height: 40px;
+  width: 40px;
+  display: inline;
+  border: 1px solid #6666;
+  padding: 10px;
+  cursor: pointer;
+  color: #060607;
+  border-radius: 2px;
+}
+
+.like {
+  width: 330px;
+  display: flex;
+  justify-content: space-between;
+}
+
+a {
+  text-transform: capitalize;
+  text-decoration: none;
+}
