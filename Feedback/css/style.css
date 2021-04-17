@@ -55,6 +55,7 @@ span {
   cursor: pointer;
   color: #060607;
   border-radius: 2px;
+  font-weight: bold;
 }
 
 .like {
