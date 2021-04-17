@@ -27,6 +27,7 @@ p {
   text-transform: capitalize;
   margin-top: 30px;
   margin-bottom: 50px;
+  font-weight: bold;
 }
 
 span {
