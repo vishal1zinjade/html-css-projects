@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task Manager</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <form class="form">
+      <div class="heading"><h2>task manager</h2></div>
+      <div class="form-control">
+        <input type="text" name="task" placeholder="e.g. Eggs" />
+        <button class="form-btn">submit</button>
+      </div>
+      <span class="error">there was an error</span>
+    </form>
+    <div class="task-container-parent">
+      <div class="task-container">
+        <h4>walk the dog</h4>
+        <div class="btn-container">
+          <button>edit</button>
+          <button>delete</button>
+        </div>
+      </div>
+      <div class="task-container completed">
+        <h4>running the excercise</h4>
+        <div class="btn-container">
+          <button>edit</button>
+          <button>delete</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
